@@ -7,7 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
 
-@interface legacyViewController : UIViewController
+@interface legacyViewController : UIViewController<CLLocationManagerDelegate>
+
+@property(strong, nonatomic) CLLocationManager *locationManager;
+
+@property(strong, nonatomic) IBOutlet UILabel *locationLabel;
+
+@property(strong, nonatomic) IBOutlet UIButton *tweetButton;
+
+-(IBAction)tweetLocationAction:(id)sender;
+
 
 @end
