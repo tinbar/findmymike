@@ -19,6 +19,10 @@
 		278F5DA518345CA00058AF5D /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 278F5DA318345CA00058AF5D /* MainStoryboard_iPhone.storyboard */; };
 		278F5DA818345CA00058AF5D /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 278F5DA618345CA00058AF5D /* MainStoryboard_iPad.storyboard */; };
 		278F5DAB18345CA00058AF5D /* legacyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 278F5DAA18345CA00058AF5D /* legacyViewController.m */; };
+		8483A1F7183470FD00598EF7 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8483A1F6183470FD00598EF7 /* Twitter.framework */; };
+		8483A1F91834710700598EF7 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8483A1F81834710700598EF7 /* Social.framework */; };
+		8483A1FB1834711100598EF7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8483A1FA1834711100598EF7 /* CoreLocation.framework */; };
+		8483A1FD1834713E00598EF7 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8483A1FC1834713E00598EF7 /* Accounts.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +43,10 @@
 		278F5DA718345CA00058AF5D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		278F5DA918345CA00058AF5D /* legacyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = legacyViewController.h; sourceTree = "<group>"; };
 		278F5DAA18345CA00058AF5D /* legacyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = legacyViewController.m; sourceTree = "<group>"; };
+		8483A1F6183470FD00598EF7 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		8483A1F81834710700598EF7 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		8483A1FA1834711100598EF7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8483A1FC1834713E00598EF7 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +54,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8483A1FD1834713E00598EF7 /* Accounts.framework in Frameworks */,
+				8483A1FB1834711100598EF7 /* CoreLocation.framework in Frameworks */,
+				8483A1F91834710700598EF7 /* Social.framework in Frameworks */,
+				8483A1F7183470FD00598EF7 /* Twitter.framework in Frameworks */,
 				278F5D8C18345CA00058AF5D /* UIKit.framework in Frameworks */,
 				278F5D8E18345CA00058AF5D /* Foundation.framework in Frameworks */,
 				278F5D9018345CA00058AF5D /* CoreGraphics.framework in Frameworks */,
@@ -75,6 +87,10 @@
 		278F5D8A18345CA00058AF5D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8483A1FC1834713E00598EF7 /* Accounts.framework */,
+				8483A1FA1834711100598EF7 /* CoreLocation.framework */,
+				8483A1F81834710700598EF7 /* Social.framework */,
+				8483A1F6183470FD00598EF7 /* Twitter.framework */,
 				278F5D8B18345CA00058AF5D /* UIKit.framework */,
 				278F5D8D18345CA00058AF5D /* Foundation.framework */,
 				278F5D8F18345CA00058AF5D /* CoreGraphics.framework */,
@@ -313,6 +329,7 @@
 				278F5DB018345CA00058AF5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

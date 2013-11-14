@@ -8,10 +8,15 @@
 
 #import <UIKit/UIKit.h>
 #import <CoreLocation/CoreLocation.h>
+#import <Twitter/Twitter.h>
+#import <Accounts/Accounts.h>
+#import <Social/Social.h>
 
 @interface legacyViewController : UIViewController<CLLocationManagerDelegate>
 
 @property(strong, nonatomic) CLLocationManager *locationManager;
+
+@property(strong, nonatomic) ACAccountStore *accountStore;
 
 @property(strong, nonatomic) IBOutlet UILabel *locationLabel;
 
