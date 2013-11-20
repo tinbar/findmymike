@@ -19,6 +19,7 @@
 		278F5DA518345CA00058AF5D /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 278F5DA318345CA00058AF5D /* MainStoryboard_iPhone.storyboard */; };
 		278F5DA818345CA00058AF5D /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 278F5DA618345CA00058AF5D /* MainStoryboard_iPad.storyboard */; };
 		278F5DAB18345CA00058AF5D /* legacyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 278F5DAA18345CA00058AF5D /* legacyViewController.m */; };
+		84082C35183C5C610048BFDE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84082C34183C5C610048BFDE /* ViewController.m */; };
 		8483A1F7183470FD00598EF7 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8483A1F6183470FD00598EF7 /* Twitter.framework */; };
 		8483A1F91834710700598EF7 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8483A1F81834710700598EF7 /* Social.framework */; };
 		8483A1FB1834711100598EF7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8483A1FA1834711100598EF7 /* CoreLocation.framework */; };
@@ -43,6 +44,8 @@
 		278F5DA718345CA00058AF5D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		278F5DA918345CA00058AF5D /* legacyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = legacyViewController.h; sourceTree = "<group>"; };
 		278F5DAA18345CA00058AF5D /* legacyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = legacyViewController.m; sourceTree = "<group>"; };
+		84082C33183C5C610048BFDE /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../../../MapTest/MapTest/ViewController.h; sourceTree = "<group>"; };
+		84082C34183C5C610048BFDE /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../../../MapTest/MapTest/ViewController.m; sourceTree = "<group>"; };
 		8483A1F6183470FD00598EF7 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
 		8483A1F81834710700598EF7 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		8483A1FA1834711100598EF7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -70,6 +73,7 @@
 		278F5D7F18345CA00058AF5D = {
 			isa = PBXGroup;
 			children = (
+				84082C32183C5C2D0048BFDE /* maptest */,
 				278F5D9118345CA00058AF5D /* findmymike */,
 				278F5D8A18345CA00058AF5D /* Frameworks */,
 				278F5D8918345CA00058AF5D /* Products */,
@@ -124,6 +128,15 @@
 				278F5DA118345CA00058AF5D /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84082C32183C5C2D0048BFDE /* maptest */ = {
+			isa = PBXGroup;
+			children = (
+				84082C33183C5C610048BFDE /* ViewController.h */,
+				84082C34183C5C610048BFDE /* ViewController.m */,
+			);
+			name = maptest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +209,7 @@
 			files = (
 				278F5D9818345CA00058AF5D /* main.m in Sources */,
 				278F5D9C18345CA00058AF5D /* legacyAppDelegate.m in Sources */,
+				84082C35183C5C610048BFDE /* ViewController.m in Sources */,
 				278F5DAB18345CA00058AF5D /* legacyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

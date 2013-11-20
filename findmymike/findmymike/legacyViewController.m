@@ -45,7 +45,7 @@
     // use this to tweet current location
     self.accountStore = [[ACAccountStore alloc] init];
     
-    NSString *userName = @"tinbar";
+    NSString *userName = @"tinbarasdf";
     
     ACAccountType *twitterType =
     [self.accountStore accountTypeWithAccountTypeIdentifier:
@@ -91,7 +91,7 @@
                                              //  Build a request that includes a status, lat, long
                                              NSDictionary *params =
                                              [NSDictionary dictionaryWithObjectsAndKeys:
-                                              @"Just typing the tweets @Twitter.", @"status",
+                                              @"@tinbar test test", @"status",
                                               @"37.7821120598956", @"lat", @"-122.400612831116",
                                               @"long",
                                               nil];
@@ -128,7 +128,7 @@
                                              //  Build a request that includes a status, lat, long
                                              NSDictionary *params =
                                              [NSDictionary dictionaryWithObjectsAndKeys:
-                                              @"test test, iOS app twitter integration test @mikestarrunner", @"status",
+                                              @"@tinbar test", @"status",
                                               @"37.7821120598956", @"lat", @"-122.400612831116",
                                               @"long",
                                               nil];
